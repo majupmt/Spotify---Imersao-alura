@@ -5,3 +5,90 @@ body {
 h1 {
     color: #fff;
 }
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16;
+}
+.sidebar__navigation .logo {
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16;
+}
+
+.logo img {
+    width: 80px;
+}
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+.biblioteca a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.playlist-box {
+    background-color: #282828;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.playlist-box h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.playlist-box p {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #b3b3b3;
+}
+
