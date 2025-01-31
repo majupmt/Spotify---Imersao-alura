@@ -36,7 +36,7 @@
     width: 32px;
     height: 32px;
     background: var(--bg-icon);
-    background-color:var(--bg-arrow-color);
+    background-color:#242424;
     border-radius: 50%;
     border: none;
     cursor: pointer;
