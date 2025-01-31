@@ -1,4 +1,4 @@
-/* HEADER */
+
 
 .main-container{
   max-width: 80vw;
@@ -94,7 +94,7 @@
   border: none;
 }
 
-/* PLAYLIST */
+
 .playlist-container {
 height: 68vh;
 padding-top: 16px;
@@ -120,7 +120,7 @@ font-size: 24px;
 font-weight: 700;
 }
 
-/* SCROLL */
+
 .offer__scroll-container {
 max-height: 43vh;
 margin: 24px;
@@ -134,7 +134,7 @@ width: 1px;
 .offer__scroll-container::-webkit-scrollbar-thumb {
 background-color: transparent;
 }
-/* FIM SCROLL */
+
 
 .offer__list-item {
 display: grid;
@@ -144,7 +144,7 @@ grid-gap: 16px;
 gap: 16px;
 margin-bottom: 16px;
 
-/* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
+
 display: grid;
 gap: 16px;
 grid-gap: 32px;
@@ -167,7 +167,7 @@ font-size: 24px;
 font-weight: 700;
 }
 
-/* COLOR CARDS */
+
 .card1 {
 background-color: rgb(0, 100, 80);
 }
@@ -213,7 +213,7 @@ background: rgb(0, 30, 80);
 .card15 {
 background: rgb(60, 30, 80);
 }
-/* FIM COLOR CARDS */
+
 
 .offer__list-item img {
 position: absolute;
@@ -224,7 +224,7 @@ width: 107px;
 transform: rotate(25deg) translate(18%, -2%);
 }
 
-/* CARD ARTISTA */
+
 
 .artist {
 --column-count: 5;
